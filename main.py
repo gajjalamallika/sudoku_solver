@@ -60,4 +60,4 @@ def p():
         return render_template('final.html',pl=pl)
 
 if __name__ == '__main__':         
-    app.run(debug=False)                   
+    app.run(debug=False,host='0.0.0.0')                   
