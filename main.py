@@ -1,5 +1,6 @@
 from flask import * 
 from solver import *
+from valid import *
 app = Flask(__name__)
 
 @app.route('/')
