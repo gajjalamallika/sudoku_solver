@@ -1,5 +1,4 @@
-def returns():
-    return redirect(url_for('home')) 
+
  
 
 def check(board, i, j, kk):
